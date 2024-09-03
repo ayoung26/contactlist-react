@@ -2,7 +2,6 @@ import './App.css'
 import './css/Modal.css'
 import InputCon from './components/InputCon'
 import ListArea from './components/ListArea'
-// import GroupModal from './components/modal/GroupModal';
 import { useState } from 'react';
 
 function App() {
