@@ -1,0 +1,54 @@
+.listSec {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.searchCon {
+  display: flex;
+  gap: 1rem;
+  margin-top: 30px;
+}
+
+.searchCon input {
+  width: 70%;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(237, 239, 255);
+  flex: 1;
+}
+
+.showAllBtn {
+  color: white;
+  background-color: rgb(78, 95, 255);
+}
+
+.listSec .listArea {
+  height: 100%;
+}
+
+.listLi .showDetailBtn,
+.listLi .deleteBtn {
+  background-color: #d4d4d4;
+}
+
+.listLi {
+  height: 80px;
+  border-bottom: 1px solid #999;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0 1rem;
+}
+
+.listLi span {
+  flex: 1;
+  display: inline-block;
+}
+
+.listLi button {
+  width: 130px;
+  height: 50px;
+}
